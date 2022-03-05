@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan</title>
+        <style>
+            @import url('style.css');
+        </style>
+    </head>
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+            alert("Harap Mengisi pesan sebelum dikirim");
+            return false;
+          }
+        }
+        </script>
+    <body>
+        <div class="header">
+            <a href="home.html">
+                <img class="header" alt="">
+            </a>
+        </div>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="Wisata.html">Wisata</a>
+            <a class="active" href="Contact.html">Contact</a>
+        </div>
+
+        <div class="sidenav">
+            <div class="biodata head">
+                Profil Diri
+                <img src="images/fotosma.jpg">
+            </div>
+
+            <div class="biodata">
+                Nama Irfan Mochamad Esa<br>
+                NIM 2005568<br>
+                Kelamin Laki-laki<br>
+                Email irfanesa@upi.edu<br>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="biodata head">
+                Kontak
+            </div>
+            
+            <form method="post" action="messageSent.html">
+                  <!-- legend -->
+                  Nama
+          
+                  <!-- template input form -->
+                  <label for=".....">
+                    <!-- tulis nama form dibawah ini -->
+                    <!-- sesuaikan name, type, dan placeholder -->
+                    <input name="" type="" placeholder="" />
+                  </label>
+                  <br />
+                  <!-- END of template -->
+          
+                  <!-- legend -->
+                  Asal Daerah
+          
+                  <!-- template input form -->
+                  <label for=".....">
+                    <!-- tulis nama form dibawah ini -->
+                    <!-- sesuaikan name, type, dan placeholder -->
+                    <input name="" type="" placeholder="" />
+                  </label>
+                  <br />
+          
+                <!-- title -->
+                Pesan*
+                  <label for="description">
+                    <input name="" type="" placeholder="" required/>
+                  </label>
+                
+                  <input type="submit" value="Submit">
+              </form>
+
+          <div class="footer">
+            <p>Praktikum Desain dan Pemrograman Web</p>
+        </div>
+          
+    </body>
+</html>
+</div>
